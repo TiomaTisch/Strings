@@ -52,8 +52,8 @@ public class Main {
         System.out.println("_______Задание 1_______");
 
         String firstName = "Ivan";
-        String middleName = "Ivanov";
-        String lastName = "Ivanovich";
+        String middleName = "Ivanovich";
+        String lastName = "Ivanov";
         String fullName = middleName +" "+ firstName +" "+ lastName;
 
         System.out.println("Ф. И. О. сотрудника — " + fullName);
