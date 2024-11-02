@@ -49,6 +49,25 @@
 public class Main {
     public static void main(String[] args) {
 
+        System.out.println("_______Задание 1_______");
 
+        String firstName = "Ivan";
+        String middleName = "Ivanov";
+        String lastName = "Ivanovich";
+        String fullName = middleName +" "+ firstName +" "+ lastName;
+
+        System.out.println("Ф. И. О. сотрудника — " + fullName);
+
+        System.out.println("_______Задание 2_______");
+
+        String capsFullName = fullName.toUpperCase();
+        System.out.println("Данные Ф. И. О. сотрудника для заполнения отчета — " + capsFullName);
+
+        System.out.println("_______Задание 3_______");
+
+        fullName = "Иванов Семён Семёнович";
+        String newFullName = fullName.replace("ё","е");
+
+        System.out.println("Данные Ф. И. О. сотрудника — " + newFullName);
     }
 }
